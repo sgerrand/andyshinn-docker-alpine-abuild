@@ -8,4 +8,4 @@ jobs:
       - setup_remote_docker
       - run:
           name: Build Docker image
-          command: docker build . --pull
+          command: ./build.sh
