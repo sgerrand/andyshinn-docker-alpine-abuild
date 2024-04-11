@@ -8,6 +8,11 @@ This is a Docker image for building Alpine Linux packages.
 
 We tag each release with the Alpine Linux version used. Here are the tags to choose from:
 
+* `sgerrand/alpine-abuild:3.19`: based on [Alpine 3.19](https://alpinelinux.org/posts/Alpine-3.19.0-released.html)
+* `sgerrand/alpine-abuild:edge`: based on Alpine edge (includes testing repository as well)
+<details>
+<summary>Previous tags</summary>
+	
 * `sgerrand/alpine-abuild:3.3`: based on Alpine 3.3
 * `sgerrand/alpine-abuild:3.4`: based on Alpine 3.4
 * `sgerrand/alpine-abuild:3.5`: based on Alpine 3.5
@@ -24,8 +29,8 @@ We tag each release with the Alpine Linux version used. Here are the tags to cho
 * `sgerrand/alpine-abuild:3.16`: based on Alpine 3.16
 * `sgerrand/alpine-abuild:3.17`: based on Alpine 3.17
 * `sgerrand/alpine-abuild:3.18`: based on Alpine 3.18
-* `sgerrand/alpine-abuild:3.19`: based on [Alpine 3.19](https://alpinelinux.org/posts/Alpine-3.19.0-released.html)
-* `sgerrand/alpine-abuild:edge`: based on Alpine edge (includes testing repository as well)
+
+</details>
 
 The builder is typically run from your Alpine Linux package source directory (changing `~/.abuild/mykey.rsa` and `~/.abuild/mykey.rsa.pub` to your packager private and public key locations):
 
