@@ -9,7 +9,7 @@ This is a Docker image for building Alpine Linux packages.
 We tag each release with the Alpine Linux version used. Here are the tags to choose from:
 
 * `sgerrand/alpine-abuild:3.19`: based on [Alpine 3.19](https://alpinelinux.org/posts/Alpine-3.19.0-released.html)
-* `sgerrand/alpine-abuild:edge`: based on Alpine edge (includes testing repository as well)
+* `sgerrand/alpine-abuild:edge`: based on [Alpine Edge](https://wiki.alpinelinux.org/wiki/Repositories#Edge) (includes testing repository as well)
 <details>
 <summary>Previous tags</summary>
 	
